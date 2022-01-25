@@ -2,7 +2,7 @@ import React from 'react';
 import Rating from "./Rating";
 
 function Product(props) {
-    const {product} = props;
+    const {product}=props;
     return (
         <div key={product._id} className="card">
             <a href={`/product/${product._id}`}>
